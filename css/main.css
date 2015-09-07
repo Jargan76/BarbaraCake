@@ -4,9 +4,11 @@ body {
   margin-bottom: 90px;
   background-image: url(http://i2.wp.com/lockandstockphotos.com/wp-content/uploads/2015/03/Slam-Dunk.png);
 }
-
 .marketing .col-lg-4 {
     margin-top: 75px;
+}
+p>button>a.btn {
+  color: #fff;
 }
 #barb {
     color: #DA7600;
