@@ -94,6 +94,33 @@ html {
 
 /*@media style*/
 
+@media screen and (max-width: 710px ) {
+   .carousel {
+        height: 400px;
+   }
+   .carousel-inner {
+        height: 400px;
+   }
+   .carousel-inner .item {
+        height: 400px;
+   }
+   .carousel-inner > .item > img {
+        height: 400px;
+   }
 
-
+}
+@media screen and (max-width: 410px) {
+      .carousel {
+        height: 300px;
+   }
+   .carousel-inner {
+        height: 300px;
+   }
+   .carousel-inner .item {
+        height: 300px;
+   }
+   .carousel-inner > .item > img {
+        height: 300px;
+   }
+}
 
