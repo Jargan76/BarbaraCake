@@ -1,6 +1,32 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  margin-bottom: 90px;
+  background-image: url(http://i2.wp.com/lockandstockphotos.com/wp-content/uploads/2015/03/Slam-Dunk.png);
+}
+.gallery-header {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+/*Navbar style
+----------------------------------*/
+.dropdown-toggle {
+    margin-right: 24px;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.dropdown-menu>li>a {
+    color: #DA7600;
+}
+.dropdown-menu>li>a:hover {
+    color: #FFFFFF;
+    background-color: #DA7600;
 }
 .navbar {
     min-height: 70px;
@@ -27,4 +53,23 @@ body {
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #DA6700;
     background-color: #FFFFFF;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  padding-top: 39px;
+  background-color: #DA6700;
 }

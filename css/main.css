@@ -1,58 +1,85 @@
 body {
   min-height: 1300px;
   padding-top: 70px;
+  margin-bottom: 90px;
+  background-image: url(http://i2.wp.com/lockandstockphotos.com/wp-content/uploads/2015/03/Slam-Dunk.png);
 }
 
 .marketing .col-lg-4 {
     margin-top: 75px;
-    margin-bottom: 150px;
-
 }
-.navbar {
-    min-height: 70px;
-    background-color: #DA6700;
-
+#barb {
+    color: #DA7600;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 40px;
 }
-.navbar-default .navbar-brand {
-    font-size: 32px;
-    padding-left: 40px;
-    padding-bottom: 55px;
-    color: #FFFFFF;
-}
-.navbar-default .navbar-brand:hover {
-    color: #DA6700;
-    background-color: #FFFFFF;
-    border: 1px solid #DA6700;
-}
-.navbar-default .navbar-nav>li>a {
+/*Navbar style
+----------------------------------*/
+.dropdown-toggle {
     margin-right: 24px;
     margin-top: 10px;
     font-family: cursive;
     font-size: 18px;
     color: #FFFFFF;
 }
-.navbar-default .navbar-nav>li>a:hover {
+.dropdown-menu>li>a {
+    color: #DA7600;
+}
+.dropdown-menu>li>a:hover {
+    color: #FFFFFF;
+    background-color: #DA7600;
+}
+.navbar {
+    min-height: 70px;
+    background-color: #DA6700;
+}
+.navbar-inverse .navbar-brand {
+    font-size: 32px;
+    padding-left: 40px;
+    padding-bottom: 54px;
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #DA6700;
+    background-color: #FFFFFF;
+    border: 1px solid #DA6700;
+}
+.navbar-inverse .navbar-nav>li>a  {
+    margin-right: 24px;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
     color: #DA6700;
     background-color: #FFFFFF;
 }
-
-/*@media style*/
-
-@media (min-width: 1921px)
-.navbar-toggle {
-    display: none;
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 10px;
+    text-align: center;
+    font-family: cursive;
 }
 
+/*Carousel style
+------------------------------------------*/
+.left, .left:hover {
+    color: #DA7600;
+}
+.right, .right:hover {
+    color: #DA7600;
+}
+.slide1  {
+    color: #333;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
 }
 .footer {
   position: absolute;
@@ -62,5 +89,9 @@ body {
   padding-top: 39px;
   background-color: #DA6700;
 }
+
+/*@media style*/
+
+
 
 
