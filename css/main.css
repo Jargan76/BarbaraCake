@@ -93,7 +93,8 @@ html {
   text-align: center;
 }
 
-/*@media style*/
+/*@media style
+------------------------------------------*/
 
 @media screen and (max-width: 710px ) {
    .carousel {
@@ -123,4 +124,9 @@ html {
    .carousel-inner > .item > img {
         height: 300px;
    }
+}
+@media screen and (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+          color: #fff;
+    }
 }

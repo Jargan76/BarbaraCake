@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 20px;
   margin-bottom: 90px;
   background-image: url(http://i2.wp.com/lockandstockphotos.com/wp-content/uploads/2015/03/Slam-Dunk.png);
@@ -73,4 +73,11 @@ html {
   padding-top: 39px;
   background-color: #DA6700;
   text-align: center;
+}
+/* @media style
+-------------------------------------------------*/
+@media screen and (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+          color: #fff;
+    }
 }

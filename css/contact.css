@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+h2, p {
+    text-align: center;
+}
+.box {
+    margin-top: 20px;
+    background-color: #fff;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    width: 100%;
+    border: 2px solid #333;
+    outline: 1px solid #fff;
+}
+ .fields {
+    margin-left: 12px;
+ }
+ input {
+    background-color: #E7DDDD;
+ }
+ #mc_embed_signup{
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    padding-top: 1px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 2px solid #333;
+    outline: 1px solid #fff;
+}
+.asterisk {
+    color: #DA7600;
+    font-size: 18px;
+}
